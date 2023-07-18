@@ -85,7 +85,7 @@ h3 {
   background-color: #ccb9da;
 }
 /* 4 */
-.fixed-size-container{
+.fixed-size-container {
   max-width: 1400px;
   margin: 40px auto 0 auto;
   background-color: white;
@@ -96,14 +96,61 @@ h3 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.fixed-size{
+.fixed-size {
   width: 150px;
   height: 100px;
   background-color: #990b47;
-  color: #FFF;
+  color: #fff;
   line-height: 100px;
   text-align: center;
   font-weight: bold;
   font-size: 60px;
   margin-bottom: 20px;
+}
+/* 5 */
+.banner {
+  height: 400px;
+  max-width: 700px;
+  margin: 40px auto 40px auto;
+  background-color: #2a2a2a;
+  /* Center 글자를 사각형 정 중앙에 오도록 한다. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-me {
+  color: #fff;
+  font-size: 50px;
+  margin: auto;
+  border: 1px solid red;
+}
+/* 6 */
+.equal-height-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.first {
+  background-color: #FFF;
+  padding: 20px;
+  flex: 1;
+}
+
+.second {
+  background-color: yellow;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-a {
+  background-color: #c0dbe2;
+  flex: 1;
+}
+
+.second-b {
+  background-color: #cdf1c3;
+  flex: 1;
 }
