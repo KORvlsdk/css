@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
 html {
   background-color: #869960;
+  font-family: 'Bagel Fat One', cursive;
 }
 
 body {
-  font-family: "맑은 고딕", 돋움, 굴림, sans-serif;
   font-size: 87%;
 }
 
@@ -131,7 +132,6 @@ form {
 }
 input,
 select {
-  font-family: "맑은 고딕";
   font-size: 100%;
 }
 select {
@@ -149,6 +149,7 @@ select {
   margin-bottom: 15px;
   border: 1px solid #cdcdcd;
   outline: none;
+  font-family: 'Bagel Fat One', cursive;
 }
 /* :focus는 입력하기 위해 클릭시  */
 input[type="email"]:focus,
