@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .box-a{
+            background-color: dodgerblue;
+            padding: 50px;
+            border: 3px solid red;
+            margin: 0px;
+            float: right;
+            /* float은 공중에 띄워 놓은 것 같은 효과가 있음. 컨텐츠 영역은 body 태그를 비롯한 다른 태그들의 영향을 받음.
+             box-b의 margin을 조절해보면 알 수 있음. */
+        }
+        .box-b{
+            background-color: yellowgreen;
+            padding: 10px;
+            border: 7px solid red;
+            margin: 20px;
+        }
+        .box-c{
+            background-color: violet;
+            padding: 0px;
+            border: 5px solid red;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-a">박스A</div>
+    <div class="box-b">박스B</div>
+    <div class="box-c">박스C</div>
+</body>
+</html>

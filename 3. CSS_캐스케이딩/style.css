@@ -1,0 +1,30 @@
+html {
+  color: white;
+}
+body {
+  color: red;
+}
+.myClass{
+    color:red;
+}
+#myId {
+    color: dodgerblue;
+}
+h1{
+    color: yellow;
+}
+header {
+  color: aqua;
+}
+header h1 {
+  color: tomato;
+}
+header p {
+  color: blueviolet;
+}
+header p span {
+  color: aqua;
+}
+/* 같은 일반 태그일 때 우선순위는 범위가 작을수록 높다. */
+/* 아이디 > 클래스 > 일반태그 */
+/* 태그, 클래스, 아이디에 마우스를 올려보면 선택기 특성이 나옴. 중요성이 높을수록 왼쪽에 숫자가 표시되며, 숫자의 의미는 클래스, 태그의 갯수를 나타냄. */

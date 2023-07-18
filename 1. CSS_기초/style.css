@@ -1,0 +1,40 @@
+* {
+  text-align: center;
+}
+/* body 요소를 선택 */
+body {
+  /* 글꼴 변경 */
+  font-family: "NanumGothic";
+}
+h1 {
+  font-style : italic;
+  font-size: 50px;
+}
+
+/* 클래스(.)를 선택 */
+
+.male {
+  /* 글자색 변경 */
+  color: #007bff;
+}
+
+.female {
+  /* 글자색 변경 */
+  color: #e43681;
+}
+
+
+/* ul 선택 */
+
+ul {
+  /* 리스트 스타일 없애기! bullet 사라짐 */
+  list-style: none;
+}
+
+
+/* 아이디(#) 선택 */
+
+#ceo {
+  /* 배경색 변경 */
+  background-color: #dfe0e1;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 기본적으로 UTF-8이 쓰임 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- viewport 는 반응형 할 때 쓰인다. -->
+    <style>
+        /* 내부 스타일 영역 */
+        body{
+            margin: 0;
+        }
+        p {
+            color: cornflowerblue;
+            text-align: center;
+        }
+    </style>
+    <!-- 외부 파일은  style.css를 적용한다. -->
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS 적용방법</title>
+</head>
+
+<body>
+    <!-- 1. 인라인 CSS -->
+    <h1 style="color : yellow; background-color: rgba(30, 143, 255, 0.75);">별다방 카페</h1>
+    <!-- 2. 내부 스타일 : html 문서 안에 style 태그 안에 있음 -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, dolorem illo quasi, excepturi, eveniet recusandae deleniti quis beatae pariatur impedit incidunt expedita sint veniam blanditiis minus? Incidunt dolore commodi perspiciatis!</p>
+    <h2>운영진</h2>
+    <ul>
+        <li class="male" id="ceo">X</li>
+        <li class="female">Y</li>
+    </ul>
+    <h2>매니저</h2>
+    <ul>
+        <li class="male">P</li>
+        <li class="female">Q</li>
+    </ul>
+    <h2>알바</h2>
+    <ul>
+        <li class="male">A</li>
+        <li class="female">B</li>
+        <li class="male">C</li>
+        <li class="female">D</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        background-color: cornflowerblue;
+        border: 10px solid black;
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+      }
+      span {
+        background-color: coral;
+        height: 50px;
+        width: 50px;
+        border: 10px solid black;
+        padding: 10px;
+        margin: 10px;
+        /* 인라인 요소는 가로 세로 길이는 안들어가지만 padding과 margin은 들어감. 단 margin은 상하 길이는 안들어가고 좌우 길이만 들어감. */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>블럭 vs 인라인</h1>
+
+    <h2>블럭</h2>
+    <div></div>
+    <div></div>
+    <div></div>
+    <ul>
+      <li>한 줄에 하나씩 쌓임</li>
+      <li>가로와 세로 길이를 가짐</li>
+      <li>화면 배치를 위해 사용</li>
+    </ul>
+
+    <h2>인라인</h2>
+    <span>A</span>
+    <span>BB</span>
+    <span>CCC</span>
+    <ul>
+      <li>한 줄에 여러 요소가 나옴</li>
+      <li>가로 세로 길이 직접 X. 내용물의 크기 만큼을 가짐</li>
+      <li>텍스트를 꾸밀 때, 사용</li>
+    </ul>
+  </body>
+</html>
