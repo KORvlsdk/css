@@ -1,0 +1,33 @@
+body {
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .box {
+    background: white;
+    width: 300px;
+    height: 300px;
+    /* Transform - rotate, scale, skew */
+    transform: rotate(70deg) scale(1.2);
+    /* transform: skew(25deg); */
+    /* transform: scale(2); */
+    /* transition: all 1s ease-in-out; */
+    /* 속성의 상태가 바뀔 때 걸리는 시간 */
+    transition: 2s;
+  }
+
+  .box:hover {
+    transform: rotate(1000deg) translate(100px, 100px); 
+    /* transform: skew(25deg); */
+    /* transform: scale(2); */
+    border-radius: 10%;
+    background-color: dodgerblue;
+    /* transform: translateY(100px);  */
+    /* transform: translateX(-100px); */
+    /* x & y */
+    /* transform: translate(100px, 100px); */
+    /* transform: translate3d(100px, 100px, 100px); */
+  }
